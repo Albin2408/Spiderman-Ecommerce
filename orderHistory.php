@@ -9,7 +9,7 @@ if (isset($_SESSION['username'])) {
 	// Connect to the database
 	$servername = "localhost";
 	$db_username = "lopeza21_bobthebuilder";
-	$password = "goldfishchips";
+	$password = "";
 	$database = "lopeza21_SpiderMan-TheMultiVerseShop";
 
 	$conn = mysqli_connect($servername, $db_username, $password, $database);
