@@ -13,7 +13,7 @@ $employee_password = $_POST['employee_password'];
 $client_username = $_POST['client_user'];
 $client_password = $_POST['client_password'];
 
-$connection = new mysqli("localhost", "lopeza21_bobthebuilder", "goldfishchips", "lopeza21_SpiderMan-TheMultiVerseShop");
+$connection = new mysqli("localhost", "lopeza21_bobthebuilder", "", "lopeza21_SpiderMan-TheMultiVerseShop");
 if ($connection->connect_error) {
 	die("Unable to connect to the database " . $connection->connect_error);
 }
