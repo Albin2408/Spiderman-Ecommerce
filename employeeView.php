@@ -18,7 +18,7 @@
     $servername = "localhost";
     $database = "lopeza21_SpiderMan-TheMultiVerseShop";
     $username = "lopeza21_bobthebuilder";
-    $password = "goldfishchips";
+    $password = "";
 
     // Create a new PDO instance
     $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
