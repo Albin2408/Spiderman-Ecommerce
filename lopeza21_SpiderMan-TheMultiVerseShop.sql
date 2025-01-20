@@ -2,7 +2,7 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
+-- Host: localhost:
 -- Generation Time: Jun 22, 2023 at 06:40 PM
 -- Server version: 5.7.42
 -- PHP Version: 8.1.16
@@ -65,12 +65,12 @@ CREATE TABLE `CLIENT` (
 --
 
 INSERT INTO `CLIENT` (`Client_ID`, `FirstName`, `LastName`, `password`, `username`, `Sex`) VALUES
-(1, 'Michael', 'Jordan', 'goat', 'michaeljordan', 'M'),
-(2, 'David', 'Cruz', 'coderguy', 'Dcruz', 'M'),
-(3, 'Kobe', 'Bryant', 'kobe24', 'kobe08', 'M'),
-(4, 'Albin', 'Lopez', 'league', 'albin24', 'M'),
-(5, 'Jeffrey', 'Lopez', 'cedar', 'tacobell', 'M'),
-(6, 'John', 'Cena', 'code', 'johncena12', 'M');
+(1, 'Michael', 'Jordan', '', 'michaeljordan', 'M'),
+(2, 'David', 'Cruz', '', 'Dcruz', 'M'),
+(3, 'Kobe', 'Bryant', '', 'kobe08', 'M'),
+(4, 'Albin', 'Lopez', '', 'albin24', 'M'),
+(5, 'Jeffrey', 'Lopez', '', 'tacobell', 'M'),
+(6, 'John', 'Cena', '', 'johncena12', 'M');
 
 -- --------------------------------------------------------
 
@@ -99,7 +99,7 @@ CREATE TABLE `EMPLOYEE` (
 --
 
 INSERT INTO `EMPLOYEE` (`Employee_id`, `Fname`, `Minit`, `Lname`, `username`, `password`, `Ssn`, `Bdate`, `Address`, `Sex`, `Salary`, `Super_ssn`, `Dno`) VALUES
-(1, 'Albin', NULL, 'Lopez', 'John', 'walmart', '12345678', NULL, '416 Newark, NJ', 'M', 50000, NULL, 1);
+(1, 'Albin', NULL, 'Lopez', 'John', '', '12345678', NULL, '416 Newark, NJ', 'M', 50000, NULL, 1);
 
 -- --------------------------------------------------------
 
